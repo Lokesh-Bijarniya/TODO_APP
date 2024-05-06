@@ -1,0 +1,76 @@
+
+.body{
+    height: 100vh;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+.pendTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.list{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.addBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnText{
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.completeTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.completeTasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.taskContent{
+    text-align: left;
+     width: 80%;
+}
+.taskActions{
+    display: flex;
+    align-items: center;
+}
+input{
+   width: 80%;
+   font-size: 1.5rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   border: unset;
+   border-bottom: 2px solid lightgrey;
+}
